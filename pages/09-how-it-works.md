@@ -14,39 +14,6 @@ layout: cover
     <div class="absolute inset-0 bg-black bg-opacity-20"></div>
   </div>
   
-  <!-- Content overlay in top-left -->
-  <div class="absolute top-8 left-8 z-10">
-    <div class="bg-white bg-opacity-95 p-8 rounded-2xl shadow-2xl max-w-md backdrop-blur-sm">
-      <h1 class="text-4xl font-bold mb-6 text-gray-900">How It Works</h1>
-      <h2 class="mb-8 text-brand-primary text-2xl font-semibold">Simple as 1-2-3</h2>
-      
-      <div class="space-y-6">
-        <div class="flex items-center space-x-4">
-          <div class="w-12 h-12 bg-gradient-to-br from-primary-500 to-primary-400 text-white rounded-full flex items-center justify-center font-bold text-xl shadow-lg">1</div>
-          <div>
-            <div class="text-lg font-semibold text-gray-800">Upload document</div>
-            <div class="text-sm text-gray-600">Any PDF, image, or file</div>
-          </div>
-        </div>
-        
-        <div class="flex items-center space-x-4">
-          <div class="w-12 h-12 bg-gradient-to-br from-primary-500 to-primary-400 text-white rounded-full flex items-center justify-center font-bold text-xl shadow-lg">2</div>
-          <div>
-            <div class="text-lg font-semibold text-gray-800">Login socially</div>
-            <div class="text-sm text-gray-600">Google, GitHub, etc.</div>
-          </div>
-        </div>
-        
-        <div class="flex items-center space-x-4">
-          <div class="w-12 h-12 bg-gradient-to-br from-primary-500 to-primary-400 text-white rounded-full flex items-center justify-center font-bold text-xl shadow-lg">3</div>
-          <div>
-            <div class="text-lg font-semibold text-gray-800">Get your seal</div>
-            <div class="text-sm text-gray-600">QR code embedded</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Badge popover in lower right -->
   <div class="absolute bottom-8 right-8 z-20">
