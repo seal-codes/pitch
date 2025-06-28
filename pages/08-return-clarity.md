@@ -4,20 +4,26 @@ layout: cover
 
 <div class="flex items-center justify-center h-full">
 <div class="text-center">
+<GradientText startColor="#8B4513" endColor="#2ab5b5" direction="left-to-right">
 <h1 class="mb-16">A Return to Clarity</h1>
+</GradientText>
 <div class="flex items-center justify-center space-x-32">
 <div class="text-center">
-<div class="w-56 h-56 rounded-3xl overflow-hidden shadow-xl bg-white flex items-center justify-center mb-6">
+<div class="w-56 h-56 rounded-3xl overflow-hidden shadow-xl bg-gradient-to-br from-amber-50 to-amber-100 flex items-center justify-center mb-6 border-2 border-amber-200">
 <img src="/wax-seal.png" alt="Ancient seal" class="w-48 h-48 object-cover" />
 </div>
-<div class="text-xl opacity-75">Ancient</div>
+<div class="text-xl opacity-75 text-amber-700">Ancient</div>
 </div>
-<lucide-arrow-right class="text-6xl text-gray-400" />
+<div class="flex flex-col items-center">
+<lucide-arrow-right class="text-6xl mb-2" style="color: #6B4423;" />
+<div class="w-2 h-16 rounded-full" style="background: linear-gradient(to bottom, #8B4513, #2ab5b5);"></div>
+<lucide-arrow-right class="text-6xl mt-2 text-brand-primary" />
+</div>
 <div class="text-center">
-<div class="w-56 h-56 rounded-3xl shadow-xl bg-white flex items-center justify-center mb-6">
+<div class="w-56 h-56 rounded-3xl shadow-xl bg-gradient-to-br from-teal-50 to-teal-100 flex items-center justify-center mb-6 border-2 border-teal-200">
 <lucide-qr-code class="w-40 h-40 text-brand-primary" />
 </div>
-<div class="text-xl opacity-75">Digital</div>
+<div class="text-xl opacity-75 text-brand-primary">Digital</div>
 </div>
 </div>
 </div>
