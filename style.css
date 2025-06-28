@@ -3,24 +3,26 @@
   font-family: 'Inter', system-ui, sans-serif;
 }
 
-/* Cover slide styling */
+/* Cover slide styling with seal.codes brand colors */
 .slidev-layout.cover {
   color: white;
-  background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 50%, #1e1b4b 100%);
+  background: linear-gradient(135deg, #154242 0%, #1c6969 25%, #238f8f 50%, #2ab5b5 75%, #2dd4bf 100%);
 }
 
-/* Image layouts */
+/* Image layouts with brand-appropriate backgrounds */
 .slidev-layout.image-right,
 .slidev-layout.image-left {
-  color: #1f2937;
+  color: #3d3d31;
+  background: linear-gradient(135deg, #f7f7f9 0%, #e7e7d9 100%);
 }
 
 .dark .slidev-layout.image-right,
 .dark .slidev-layout.image-left {
-  color: #f3f4f6;
+  color: #f7f7f9;
+  background: linear-gradient(135deg, #3d3d31 0%, #525246 100%);
 }
 
-/* Typography */
+/* Typography with seal.codes styling */
 h1 {
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 700;
@@ -72,4 +74,45 @@ h3 {
   background: rgba(0, 0, 0, 0.4);
   padding: 2rem;
   border-radius: 1rem;
+}
+
+/* Custom brand elements */
+.brand-border {
+  border: 2px solid #2dd4bf;
+}
+
+.brand-shadow {
+  box-shadow: 0 10px 25px rgba(45, 212, 191, 0.15);
+}
+
+/* Enhanced polaroid styling */
+.polaroid {
+  background: white;
+  padding: 0.75rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border: 2px solid #2dd4bf;
+  border-radius: 0.5rem;
+  transform-origin: center;
+}
+
+/* Gradient overlays for better text readability */
+.gradient-overlay {
+  background: linear-gradient(135deg, rgba(21, 66, 66, 0.8) 0%, rgba(45, 212, 191, 0.6) 100%);
+}
+
+/* Custom button styling */
+.brand-button {
+  background: linear-gradient(135deg, #2ab5b5 0%, #2dd4bf 100%);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.brand-button:hover {
+  background: linear-gradient(135deg, #238f8f 0%, #2ab5b5 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(45, 212, 191, 0.25);
 }
