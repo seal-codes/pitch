@@ -2,9 +2,9 @@
 layout: cover
 ---
 
-<VideoBackground src="/king-applying-a-seal.mp4">
-<div class="bg-white bg-opacity-90 p-12 rounded-2xl text-center">
-<h1 class="text-gray-900">For millennia, seals provided <strong class="text-amber-600">visible proof</strong> of authenticity</h1>
+<VideoBackground src="/king-applying-a-seal-1.mp4">
+<div class="bg-white bg-opacity-60 p-12 rounded-2xl text-center">
+<h1 class="text-gray-900">For hundreds of years, seals provided <strong style="color: #961a1a">visible proof</strong> of authenticity</h1>
 </div>
 </VideoBackground>
 

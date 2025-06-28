@@ -15,17 +15,14 @@ Restoring trust to our digital world,<br>
 <div class="brand-card text-center">
 <lucide-globe class="text-6xl mb-6 mx-auto text-brand-primary" />
 <div class="text-xl font-semibold mb-2">Global</div>
-<div class="text-lg opacity-75">Worldwide trust network</div>
 </div>
 <div class="brand-card text-center">
 <lucide-link class="text-6xl mb-6 mx-auto text-brand-primary" />
-<div class="text-xl font-semibold mb-2">Connected</div>
-<div class="text-lg opacity-75">Social identity powered</div>
+<div class="text-xl font-semibold mb-2">Social identity powered</div>
 </div>
 <div class="brand-card text-center">
 <lucide-users class="text-6xl mb-6 mx-auto text-brand-primary" />
-<div class="text-xl font-semibold mb-2">Empowering</div>
-<div class="text-lg opacity-75">Individual ownership</div>
+<div class="text-xl font-semibold mb-2">Individual ownership</div>
 </div>
 </div>
 </div>

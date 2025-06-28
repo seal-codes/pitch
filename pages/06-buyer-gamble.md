@@ -1,9 +1,12 @@
 ---
 layout: default
+clicks: 1
 ---
 
-<BuyerGambleStory />
+<BuyerDilemmaStory />
 
 <!--
-This is Alex. His interaction is a transaction—he wants to buy something online. But the digital marketplace is filled with doubt. He's forced to gamble, unsure if a seller is legitimate or a scam. This lack of trust creates friction, prevents commerce, and costs billions in fraud annually. But with seal.codes, Alex can verify sellers instantly and transact with confidence.
+This is Alex. He wants to buy something online, but the marketplace is filled with doubt. He's forced to gamble, unsure if a seller is legitimate or a scam. The anonymity that should protect privacy instead breeds mistrust.
+
+Click to reveal the uncertainty and see how it affects Alex.
 -->

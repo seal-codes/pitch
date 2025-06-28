@@ -3,7 +3,7 @@ layout: cover
 ---
 
 <VideoBackground src="/people-shaking-hands.mp4">
-<div class="bg-white bg-opacity-90 p-12 rounded-2xl text-center">
+<div class="bg-white bg-opacity-60 p-12 rounded-xl text-center">
 <h1 class="text-gray-900">The Foundation of Human Interaction: <strong class="text-primary-600">Trust</strong></h1>
 </div>
 </VideoBackground>

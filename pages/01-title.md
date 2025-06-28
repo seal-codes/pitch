@@ -6,9 +6,6 @@ layout: cover
   <img src="/logo.svg" alt="seal.codes logo" class="w-32 h-32 mb-8" />
   <h1 class="text-6xl font-bold mb-4">seal.codes</h1>
   <h2 class="text-2xl font-light">Digital Seals for the Modern Age</h2>
-  <div class="mt-8 text-lg opacity-75">
-    Hackathon Innovation Showcase
-  </div>
 </div>
 
 <!--

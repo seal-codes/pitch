@@ -114,6 +114,13 @@ Create a compelling Slidev-based pitch deck for a software product that effectiv
 - [x] STYLE FIX: Moved CSS from slides.md to external style.css file
 - [x] Created setup/main.ts to properly import custom styles
 - [x] Resolved Vue template style block error
+- [x] VIDEO ENHANCEMENT: Added video restart functionality using Slidev onSlideEnter hook
+- [x] Implemented proper Slidev slide lifecycle hooks instead of Vue lifecycle hooks
+- [x] COMPONENT REFACTORING: Created reusable DilemmaStory component
+- [x] Updated CreatorDilemmaStory to use the reusable component
+- [x] Created BuyerDilemmaStory component with Alex's story
+- [x] Implemented click-to-reveal functionality for both dilemma stories
+- [x] Added proper image references (anonymous.png, alex-portrait-frustrated.png)
 
 ## Commit
 

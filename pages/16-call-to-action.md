@@ -9,10 +9,7 @@ layout: cover
 Add a seal. Share with confidence.
 </h2>
 <div class="text-lg opacity-75 mb-8">
-www.seal.codes
-</div>
-<div class="text-base opacity-60">
-Thank you
+https://seal.codes
 </div>
 </div>
 

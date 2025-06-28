@@ -3,19 +3,20 @@
 theme: default
 aspectRatio: 16/9
 canvasWidth: 1920
-title: 'seal.codes - Digital Seals for the Modern Age'
-titleTemplate: '%s - Hackathon Pitch'
+title: "seal.codes - Digital Seals for the Modern Age"
+titleTemplate: "%s - Hackathon Pitch"
+transition: fade
 info: |
   ## seal.codes Hackathon Pitch
-  
+
   Revolutionary digital authenticity solution using QR code attestations
   linked to social identities. Bringing visible trust marks to the digital age.
 
 # Fonts
 fonts:
-  sans: 'Inter, system-ui, sans-serif'
-  serif: 'Georgia, serif'
-  mono: 'JetBrains Mono, monospace'
+  sans: "Inter, system-ui, sans-serif"
+  serif: "Georgia, serif"
+  mono: "JetBrains Mono, monospace"
 
 # Styling
 css: unocss
@@ -30,7 +31,7 @@ drawings:
 
 # Export options
 download: true
-exportFilename: 'seal-codes-pitch'
+exportFilename: "seal-codes-pitch"
 
 # Presenter mode
 presenter: true
@@ -93,5 +94,9 @@ src: ./pages/14-vision.md
 ---
 
 ---
-src: ./pages/15-call-to-action.md
+src: ./pages/15-seal-as-qr.md
+---
+
+---
+src: ./pages/16-call-to-action.md
 ---

@@ -4,9 +4,9 @@ layout: cover
 
 <div class="flex items-center justify-center h-full">
 <div class="text-center">
-<h1 class="mb-8">The Expert's Curse</h1>
+<h1 class="mb-8">Powerful solutions existed</h1>
 <h2 class="text-3xl font-light opacity-90 mb-16">
-Powerful solutions existed, but were only for the few
+but were only for the few
 </h2>
 <div class="grid grid-cols-4 gap-12 max-w-4xl mx-auto">
 <div class="brand-card text-center">

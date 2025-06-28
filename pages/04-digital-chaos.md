@@ -1,12 +1,12 @@
 ---
 layout: cover
-image: /digital-uncertainty.png
+background: /digital-uncertainty.png
 ---
 
 <div class="flex items-center justify-center h-full">
-  <div class="brand-card text-center">
-    <h1>In the digital space, that foundation is <strong class="text-secondary-500">crumbling</strong></h1>
-  </div>
+<div class="bg-black bg-opacity-50 p-12 rounded-2xl text-center">
+<h1>In the digital space, that foundation is <strong class="text-red-400">crumbling</strong></h1>
+</div>
 </div>
 
 <!--
