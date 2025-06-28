@@ -3,7 +3,9 @@ layout: cover
 ---
 
 <VideoBackground src="/king-applying-a-seal.mp4">
-<h1 class="text-white">For millennia, seals provided <strong class="text-amber-300">visible proof</strong> of authenticity</h1>
+<div class="bg-black bg-opacity-75 p-12 rounded-2xl text-center backdrop-blur-sm border border-white border-opacity-20">
+<h1 class="text-white text-shadow-lg">For millennia, seals provided <strong class="text-amber-200">visible proof</strong> of authenticity</h1>
+</div>
 </VideoBackground>
 
 <!--

@@ -11,9 +11,7 @@
     </video>
     
     <div class="absolute inset-0 flex items-center justify-center">
-      <div class="bg-black bg-opacity-50 p-12 rounded-2xl text-center">
-        <slot />
-      </div>
+      <slot />
     </div>
   </div>
 </template>
