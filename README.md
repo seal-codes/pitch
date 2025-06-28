@@ -37,6 +37,30 @@ npm run dev
 # Or press 'p' during presentation
 ```
 
+## 📁 File Structure
+
+The presentation is organized into multiple files for better maintainability:
+
+```
+slides.md                 # Main configuration and slide imports
+pages/
+├── 01-title.md          # Title slide
+├── 02-foundation-trust.md # Trust foundation (video)
+├── 03-ancient-wisdom.md  # Ancient seals (video)
+├── 04-digital-chaos.md   # Digital trust crisis
+├── 05-creator-dilemma.md # Sarah's story
+├── 06-buyer-gamble.md    # Alex's story
+├── 07-expert-curse.md    # Existing solutions
+├── 08-return-clarity.md  # Our approach
+├── 09-how-it-works.md    # 3-step process
+├── 10-verification-result.md # QR verification
+├── 11-sarah-success.md   # Creator empowerment
+├── 12-alex-confidence.md # Buyer protection
+├── 13-innovation-showcase.md # AI development
+├── 14-vision.md         # Global trust network
+└── 15-call-to-action.md # Final message
+```
+
 ## 📋 Slide Structure
 
 1. **Title/Cover** - Introduction with logo
@@ -84,9 +108,29 @@ Each slide includes comprehensive speaker notes accessible in presenter mode. To
 ## 🛠 Technical Details
 
 - **Framework**: Slidev (Vue-based presentation framework)
-- **Styling**: UnoCSS with custom theme
+- **Styling**: UnoCSS with custom seal.codes theme
 - **Layouts**: Cover, image-left, image-right
 - **Features**: Video backgrounds, presenter mode, export options
+- **Organization**: Modular file structure for easy maintenance
+
+## 📝 Editing Individual Slides
+
+To edit a specific slide:
+
+1. Navigate to the appropriate file in the `pages/` directory
+2. Edit the content while maintaining the frontmatter structure
+3. Speaker notes are in HTML comments `<!-- -->`
+4. The presentation will auto-reload during development
+
+## 🔄 Adding New Slides
+
+1. Create a new file in `pages/` (e.g., `16-new-slide.md`)
+2. Add the slide import to `slides.md`:
+   ```markdown
+   ---
+   src: ./pages/16-new-slide.md
+   ---
+   ```
 
 ## 📤 Export Options
 
@@ -112,12 +156,12 @@ npm run preview
 ## 🔧 Customization
 
 ### Styling
-- Main styles in `slides.md` `<style>` section
+- Main styles in `style.css`
 - Color scheme based on seal.codes branding
 - Responsive design for different screen sizes
 
 ### Content
-- Edit slide content directly in `slides.md`
+- Edit slide content directly in individual page files
 - Speaker notes in HTML comments `<!-- -->`
 - Asset references use `/filename.ext` format
 
