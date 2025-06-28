@@ -19,6 +19,8 @@ fonts:
 
 # Styling
 css: unocss
+
+# Color schema
 colorSchema: auto
 
 # Features
@@ -33,67 +35,6 @@ exportFilename: 'seal-codes-pitch'
 # Presenter mode
 presenter: true
 ---
-
-<style>
-/* Custom styling for seal.codes presentation */
-.slidev-layout {
-  --uno: 'font-sans';
-}
-
-/* Cover slide styling */
-.slidev-layout.cover {
-  --uno: 'text-white';
-  background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 50%, #1e1b4b 100%);
-}
-
-/* Image layouts */
-.slidev-layout.image-right,
-.slidev-layout.image-left {
-  --uno: 'text-gray-900 dark:text-gray-100';
-}
-
-/* Typography */
-h1 {
-  --uno: 'text-4xl md:text-6xl font-bold leading-tight mb-8';
-}
-
-h2 {
-  --uno: 'text-2xl md:text-4xl font-semibold leading-tight mb-6';
-}
-
-h3 {
-  --uno: 'text-xl md:text-2xl font-medium leading-tight mb-4';
-}
-
-/* Slide content spacing */
-.slidev-layout > * {
-  --uno: 'max-w-4xl mx-auto';
-}
-
-/* Speaker notes styling */
-.slidev-presenter-notes {
-  --uno: 'text-base leading-relaxed';
-}
-
-/* Video backgrounds */
-.video-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-
-.video-overlay {
-  position: relative;
-  z-index: 1;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 2rem;
-  border-radius: 1rem;
-}
-</style>
 
 ---
 layout: cover
@@ -114,14 +55,11 @@ Thank you for your time today. I want to talk about something we all engage in e
 
 ---
 layout: cover
-background: /people-shaking-hands.mp4
 ---
 
-<div class="flex items-center justify-center h-full">
-  <div class="bg-black bg-opacity-50 p-12 rounded-2xl text-center">
-    <h1>The Foundation of Human Interaction: <strong class="text-blue-300">Trust</strong></h1>
-  </div>
-</div>
+<VideoBackground src="/people-shaking-hands.mp4">
+<h1>The Foundation of Human Interaction: <strong class="text-blue-300">Trust</strong></h1>
+</VideoBackground>
 
 <!--
 What makes us as humans so unique is the intricate way we interact. We build societies, create art, and conduct business. And every single one of these interactions, from a simple conversation to a global transaction, is built on a fundamental, invisible foundation: Trust.
@@ -129,14 +67,11 @@ What makes us as humans so unique is the intricate way we interact. We build soc
 
 ---
 layout: cover
-background: /King applying a seal.mp4
 ---
 
-<div class="flex items-center justify-center h-full">
-  <div class="bg-black bg-opacity-50 p-12 rounded-2xl text-center">
-    <h1>For millennia, seals provided <strong class="text-amber-300">visible proof</strong> of authenticity</h1>
-  </div>
-</div>
+<VideoBackground src="/king-applying-a-seal.mp4">
+<h1>For millennia, seals provided <strong class="text-amber-300">visible proof</strong> of authenticity</h1>
+</VideoBackground>
 
 <!--
 For millennia, humans solved this with visible marks of authenticity. Royal seals pressed into wax instantly communicated who stood behind a document and protected against unauthorized modifications. These weren't just decorative - they were the foundation of commerce, law, and society.
