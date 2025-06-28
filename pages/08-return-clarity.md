@@ -4,9 +4,7 @@ layout: cover
 
 <div class="flex items-center justify-center h-full">
 <div class="text-center">
-<GradientText startColor="#8B4513" endColor="#2ab5b5" direction="left-to-right">
 <h1 class="mb-16">A Return to Clarity</h1>
-</GradientText>
 <div class="flex items-center justify-center space-x-32">
 <div class="text-center">
 <div class="w-56 h-56 rounded-3xl overflow-hidden shadow-xl bg-gradient-to-br from-amber-50 to-amber-100 flex items-center justify-center mb-6 border-2 border-amber-200">
@@ -21,7 +19,9 @@ layout: cover
 </div>
 <div class="text-center">
 <div class="w-56 h-56 rounded-3xl shadow-xl bg-gradient-to-br from-teal-50 to-teal-100 flex items-center justify-center mb-6 border-2 border-teal-200">
-<lucide-qr-code class="w-40 h-40 text-brand-primary" />
+<GradientText startColor="#8B4513" endColor="#2ab5b5" direction="left-to-right">
+<lucide-qr-code class="w-40 h-40" />
+</GradientText>
 </div>
 <div class="text-xl opacity-75 text-brand-primary">Digital</div>
 </div>
