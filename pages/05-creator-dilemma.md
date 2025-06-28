@@ -2,10 +2,6 @@
 layout: default
 ---
 
-<script setup>
-import CreatorDilemmaStory from '../components/CreatorDilemmaStory.vue'
-</script>
-
 <CreatorDilemmaStory />
 
 <!--
