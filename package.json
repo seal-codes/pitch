@@ -1,0 +1,29 @@
+{
+  "name": "seal-codes-pitch-deck",
+  "version": "1.0.0",
+  "description": "Hackathon pitch deck for seal.codes - Digital Seals for the Modern Age",
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export",
+    "preview": "slidev build --base /seal-codes-pitch/ && slidev preview"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "1.2.53",
+    "@slidev/cli": "^0.48.0",
+    "@slidev/theme-default": "^0.25.0"
+  },
+  "devDependencies": {
+    "@unocss/reset": "^0.58.0",
+    "unocss": "^0.58.0"
+  },
+  "keywords": [
+    "slidev",
+    "presentation",
+    "hackathon",
+    "seal-codes",
+    "digital-authenticity"
+  ],
+  "author": "seal.codes team",
+  "license": "MIT"
+}
