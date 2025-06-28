@@ -42,9 +42,9 @@ layout: cover
 
 <div class="flex flex-col items-center justify-center h-full text-center">
   <img src="/logo.svg" alt="seal.codes logo" class="w-32 h-32 mb-8" />
-  <h1 class="text-6xl font-bold mb-4 text-white">seal.codes</h1>
-  <h2 class="text-2xl font-light text-primary-200">Digital Seals for the Modern Age</h2>
-  <div class="mt-8 text-lg text-primary-100 opacity-90">
+  <h1 class="text-6xl font-bold mb-4">seal.codes</h1>
+  <h2 class="text-2xl font-light">Digital Seals for the Modern Age</h2>
+  <div class="mt-8 text-lg opacity-75">
     Hackathon Innovation Showcase
   </div>
 </div>
@@ -83,8 +83,8 @@ image: /digital-uncertainty.png
 ---
 
 <div class="flex items-center justify-center h-full">
-  <div class="bg-gray-900 bg-opacity-80 p-12 rounded-2xl text-center border border-secondary-500/30">
-    <h1 class="text-white">In the digital space, that foundation is <strong class="text-secondary-400">crumbling</strong></h1>
+  <div class="brand-card text-center">
+    <h1>In the digital space, that foundation is <strong class="text-secondary-500">crumbling</strong></h1>
   </div>
 </div>
 
@@ -98,7 +98,7 @@ layout: default
 
 <div class="h-full relative bg-gradient-to-br from-gray-50 to-gray-100">
 <div class="h-full flex flex-col justify-center pr-64 pl-16">
-<h1 class="text-5xl font-bold mb-6 text-secondary-500">The Creator's Dilemma</h1>
+<h1 class="text-5xl font-bold mb-6 text-secondary-500 brand-accent">The Creator's Dilemma</h1>
 <h2 class="text-3xl mb-8 text-gray-800">Meet Sarah</h2>
 <p class="text-2xl leading-relaxed mb-8 text-gray-700">
 Her interaction with the world is through her art.
@@ -110,7 +110,7 @@ the trust between her and her audience is broken.
 <img src="/social-media-unauthorized-copy.png" alt="Stolen content example" class="rounded-lg shadow-lg max-w-md border border-gray-200" />
 </div>
 <div class="absolute bottom-8 right-8 transform rotate-3">
-<div class="bg-white p-3 shadow-2xl rounded border-2 border-primary-200">
+<div class="polaroid">
 <img src="/sarah-portrait.png" alt="Sarah portrait" class="w-40 h-52 object-cover rounded" />
 <div class="text-center mt-2 text-gray-700 font-medium">Sarah</div>
 </div>
@@ -127,7 +127,7 @@ layout: default
 
 <div class="h-full relative bg-gradient-to-br from-primary-50 to-primary-100">
 <div class="h-full flex flex-col justify-center pr-64 pl-16">
-<h1 class="text-5xl font-bold mb-6 text-primary-700">The Buyer's Gamble</h1>
+<h1 class="text-5xl font-bold mb-6 text-brand-primary brand-accent">The Buyer's Gamble</h1>
 <h2 class="text-3xl mb-8 text-gray-800">Meet Alex</h2>
 <p class="text-2xl leading-relaxed mb-8 text-gray-700">
 He wants to buy something online, but the marketplace is filled with doubt.
@@ -138,7 +138,7 @@ He's forced to gamble, unsure if a seller is legitimate or a scam.
 <img src="/two-advertisements-with-and-without-seld-code.png" alt="Marketplace comparison" class="rounded-lg shadow-lg max-w-md border border-gray-200" />
 </div>
 <div class="absolute bottom-8 right-8 transform -rotate-2">
-<div class="bg-white p-3 shadow-2xl rounded border-2 border-primary-200">
+<div class="polaroid">
 <img src="/alex-portrait.png" alt="Alex portrait" class="w-40 h-52 object-cover rounded" />
 <div class="text-center mt-2 text-gray-700 font-medium">Alex</div>
 </div>
@@ -155,26 +155,26 @@ layout: cover
 
 <div class="flex items-center justify-center h-full">
 <div class="text-center">
-<h1 class="mb-8 text-white">The Expert's Curse</h1>
-<h2 class="text-3xl font-light text-primary-200 mb-16">
+<h1 class="mb-8">The Expert's Curse</h1>
+<h2 class="text-3xl font-light opacity-90 mb-16">
 Powerful solutions existed, but were only for the few
 </h2>
 <div class="grid grid-cols-4 gap-12 max-w-4xl mx-auto">
-<div class="text-center p-6 bg-white bg-opacity-10 rounded-lg border border-primary-300/30">
-<lucide-shield-check class="text-6xl mb-4 mx-auto text-primary-300" />
-<div class="text-xl font-medium text-white">Certificate Authorities</div>
+<div class="brand-card text-center">
+<lucide-shield-check class="text-6xl mb-4 mx-auto text-brand-primary" />
+<div class="text-xl font-medium">Certificate Authorities</div>
 </div>
-<div class="text-center p-6 bg-white bg-opacity-10 rounded-lg border border-primary-300/30">
-<lucide-key class="text-6xl mb-4 mx-auto text-primary-300" />
-<div class="text-xl font-medium text-white">PKI</div>
+<div class="brand-card text-center">
+<lucide-key class="text-6xl mb-4 mx-auto text-brand-primary" />
+<div class="text-xl font-medium">PKI</div>
 </div>
-<div class="text-center p-6 bg-white bg-opacity-10 rounded-lg border border-primary-300/30">
-<lucide-settings class="text-6xl mb-4 mx-auto text-primary-300" />
-<div class="text-xl font-medium text-white">Complex Setup</div>
+<div class="brand-card text-center">
+<lucide-settings class="text-6xl mb-4 mx-auto text-brand-primary" />
+<div class="text-xl font-medium">Complex Setup</div>
 </div>
-<div class="text-center p-6 bg-white bg-opacity-10 rounded-lg border border-primary-300/30">
-<lucide-cloud class="text-6xl mb-4 mx-auto text-primary-300" />
-<div class="text-xl font-medium text-white">Cloud Based</div>
+<div class="brand-card text-center">
+<lucide-cloud class="text-6xl mb-4 mx-auto text-brand-primary" />
+<div class="text-xl font-medium">Cloud Based</div>
 </div>
 </div>
 </div>
@@ -190,24 +190,24 @@ layout: cover
 
 <div class="flex items-center justify-center h-full">
 <div class="text-center">
-<h1 class="mb-8 text-white">A Return to Clarity</h1>
-<h2 class="text-3xl font-light text-primary-200 mb-16">
+<h1 class="mb-8">A Return to Clarity</h1>
+<h2 class="text-3xl font-light opacity-90 mb-16">
 We believe the solution isn't more complexity,<br>
-but a return to a <strong class="text-primary-300">visible mark of trust</strong>
+but a return to a <strong class="text-brand-primary">visible mark of trust</strong>
 </h2>
 <div class="flex items-center justify-center space-x-16">
 <div class="text-center">
-<div class="p-6 bg-white bg-opacity-10 rounded-full border border-primary-300/30">
+<div class="brand-card p-6 rounded-full">
 <img src="/wax-seal.png" alt="Ancient seal" class="w-24 h-24 mx-auto rounded-full" />
 </div>
-<div class="text-xl font-medium text-primary-200 mt-4">Ancient</div>
+<div class="text-xl font-medium mt-4 opacity-75">Ancient</div>
 </div>
-<lucide-arrow-right class="text-8xl text-primary-300" />
+<lucide-arrow-right class="text-8xl text-brand-primary opacity-60" />
 <div class="text-center">
-<div class="p-6 bg-primary-500 rounded-full border-2 border-primary-300">
+<div class="brand-card p-6 rounded-full bg-gradient-to-br from-primary-500 to-primary-400">
 <lucide-smartphone class="text-5xl text-white" />
 </div>
-<div class="text-xl font-medium text-primary-300 mt-4">Digital</div>
+<div class="text-xl font-medium text-brand-primary mt-4">Digital</div>
 </div>
 </div>
 </div>
@@ -225,32 +225,32 @@ image: /screenshot-seal-document.png
 # How It Works
 
 <div class="pl-8">
-<h2 class="mb-12 text-primary-600 text-3xl">Simple as 1-2-3</h2>
+<h2 class="mb-12 text-brand-primary text-3xl brand-accent">Simple as 1-2-3</h2>
 <div class="space-y-10">
 <div class="flex items-center space-x-6">
-<div class="w-16 h-16 bg-primary-500 text-white rounded-full flex items-center justify-center font-bold text-2xl shadow-lg">1</div>
+<div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-400 text-white rounded-full flex items-center justify-center font-bold text-2xl shadow-lg">1</div>
 <div>
 <div class="text-2xl font-semibold mb-2 text-gray-800">Upload your document</div>
 <div class="text-xl text-gray-600">Any PDF, image, or file</div>
 </div>
 </div>
 <div class="flex items-center space-x-6">
-<div class="w-16 h-16 bg-primary-500 text-white rounded-full flex items-center justify-center font-bold text-2xl shadow-lg">2</div>
+<div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-400 text-white rounded-full flex items-center justify-center font-bold text-2xl shadow-lg">2</div>
 <div>
 <div class="text-2xl font-semibold mb-2 text-gray-800">Login with social account</div>
 <div class="text-xl text-gray-600">Google, GitHub, or any provider you already use</div>
 </div>
 </div>
 <div class="flex items-center space-x-6">
-<div class="w-16 h-16 bg-primary-500 text-white rounded-full flex items-center justify-center font-bold text-2xl shadow-lg">3</div>
+<div class="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-400 text-white rounded-full flex items-center justify-center font-bold text-2xl shadow-lg">3</div>
 <div>
 <div class="text-2xl font-semibold mb-2 text-gray-800">Get your digital seal</div>
 <div class="text-xl text-gray-600">QR code embedded directly in your document</div>
 </div>
 </div>
 </div>
-<div class="mt-16 p-8 bg-primary-50 rounded-lg border border-primary-200">
-<div class="text-xl font-bold text-primary-800">No private keys. No certificates. No technical complexity.</div>
+<div class="mt-16 brand-card">
+<div class="text-xl font-bold text-brand-primary">No private keys. No certificates. No technical complexity.</div>
 </div>
 </div>
 
@@ -266,7 +266,7 @@ image: /screenshot-verified.png
 # The Result: Verified Trust
 
 <div class="flex flex-col justify-center h-full">
-<h2 class="mb-8 text-primary-600 text-3xl">Instant Verification</h2>
+<h2 class="mb-8 text-brand-primary text-3xl brand-accent">Instant Verification</h2>
 <p class="text-2xl leading-relaxed mb-12 text-gray-700">
 Anyone can verify authenticity by scanning the QR code
 </p>
@@ -299,22 +299,22 @@ layout: default
 
 <div class="h-full relative bg-gradient-to-br from-primary-50 to-primary-100">
 <div class="h-full flex flex-col justify-center pr-64 pl-16">
-<h1 class="text-5xl font-bold mb-6 text-primary-700">Sarah's Success</h1>
-<h2 class="text-3xl mb-12 text-primary-600">The Creator Empowered</h2>
+<h1 class="text-5xl font-bold mb-6 text-brand-primary brand-accent">Sarah's Success</h1>
+<h2 class="text-3xl mb-12 text-brand-secondary">The Creator Empowered</h2>
 <p class="text-2xl leading-relaxed mb-12 text-gray-700">
 Sarah now proudly declares:<br>
-<strong class="text-primary-800">"This is mine. I stand behind it."</strong>
+<strong class="text-brand-primary">"This is mine. I stand behind it."</strong>
 </p>
 <p class="text-xl text-gray-600 mb-16">
 She's restoring trust in her creative interactions, 
 and her audience knows they're seeing authentic work.
 </p>
-<div class="bg-white p-8 rounded-lg max-w-md shadow-lg border border-primary-200">
+<div class="brand-card max-w-md">
 <img src="/screenshot-sealed-document.png" alt="Sarah's sealed artwork" class="rounded-lg shadow-md" />
 </div>
 </div>
 <div class="absolute bottom-8 right-8 transform rotate-2">
-<div class="bg-white p-3 shadow-2xl rounded border-2 border-primary-300">
+<div class="polaroid">
 <img src="/sarah-portrait.png" alt="Sarah portrait" class="w-40 h-52 object-cover rounded" />
 <div class="text-center mt-2 text-gray-700 font-medium flex items-center justify-center gap-1">
 Sarah <lucide-sparkles class="w-5 h-5 text-primary-500" />
@@ -333,8 +333,8 @@ layout: default
 
 <div class="h-full relative bg-gradient-to-br from-gray-50 to-gray-100">
 <div class="h-full flex flex-col justify-center pr-64 pl-16">
-<h1 class="text-5xl font-bold mb-6 text-primary-700">Alex's Confidence</h1>
-<h2 class="text-3xl mb-12 text-primary-600">The Buyer Protected</h2>
+<h1 class="text-5xl font-bold mb-6 text-brand-primary brand-accent">Alex's Confidence</h1>
+<h2 class="text-3xl mb-12 text-brand-secondary">The Buyer Protected</h2>
 <p class="text-2xl leading-relaxed mb-12 text-gray-700">
 Alex can now transact with confidence
 </p>
@@ -342,7 +342,7 @@ Alex can now transact with confidence
 The seal acts as a digital handshake, removing doubt 
 and preventing fraud.
 </p>
-<div class="bg-white p-8 rounded-lg max-w-sm shadow-lg border border-primary-200">
+<div class="brand-card max-w-sm">
 <div class="text-center">
 <lucide-handshake class="text-6xl mb-6 mx-auto text-primary-500" />
 <p class="text-xl font-semibold mb-2 text-gray-800">Digital Handshake</p>
@@ -351,7 +351,7 @@ and preventing fraud.
 </div>
 </div>
 <div class="absolute bottom-8 right-8 transform -rotate-1">
-<div class="bg-white p-3 shadow-2xl rounded border-2 border-primary-300">
+<div class="polaroid">
 <img src="/alex-portrait.png" alt="Alex portrait" class="w-40 h-52 object-cover rounded" />
 <div class="text-center mt-2 text-gray-700 font-medium flex items-center justify-center gap-1">
 Alex <lucide-thumbs-up class="w-5 h-5 text-primary-500" />
@@ -370,24 +370,24 @@ layout: cover
 
 <div class="flex items-center justify-center h-full">
 <div class="text-center">
-<h1 class="mb-12 text-white">Innovation Showcase</h1>
+<h1 class="mb-12">Innovation Showcase</h1>
 <div class="mb-16">
-<div class="text-8xl font-bold text-primary-300 mb-6">88%</div>
-<h2 class="text-3xl font-light text-primary-200">Built with AI assistance</h2>
+<div class="text-8xl font-bold text-brand-primary mb-6 pulse-gentle">88%</div>
+<h2 class="text-3xl font-light">Built with AI assistance</h2>
 </div>
-<h3 class="text-2xl text-primary-100 mb-12">
+<h3 class="text-2xl opacity-90 mb-12">
 Genuine innovation, not another clone
 </h3>
 <div class="grid grid-cols-2 gap-12 max-w-3xl mx-auto">
-<div class="text-center p-8 bg-white bg-opacity-10 rounded-lg border border-primary-300/30">
-<lucide-rocket class="text-6xl mb-4 mx-auto text-primary-300" />
-<div class="text-xl font-semibold mb-2 text-white">bolt.new</div>
-<div class="text-lg text-primary-200">AI-powered development</div>
+<div class="brand-card text-center">
+<lucide-rocket class="text-6xl mb-4 mx-auto text-brand-primary" />
+<div class="text-xl font-semibold mb-2">bolt.new</div>
+<div class="text-lg opacity-75">AI-powered development</div>
 </div>
-<div class="text-center p-8 bg-white bg-opacity-10 rounded-lg border border-primary-300/30">
-<lucide-lightbulb class="text-6xl mb-4 mx-auto text-primary-300" />
-<div class="text-xl font-semibold mb-2 text-white">Novel Solution</div>
-<div class="text-lg text-primary-200">Not just another app</div>
+<div class="brand-card text-center">
+<lucide-lightbulb class="text-6xl mb-4 mx-auto text-brand-primary" />
+<div class="text-xl font-semibold mb-2">Novel Solution</div>
+<div class="text-lg opacity-75">Not just another app</div>
 </div>
 </div>
 </div>
@@ -403,28 +403,28 @@ layout: cover
 
 <div class="flex items-center justify-center h-full">
 <div class="text-center">
-<h1 class="mb-12 text-white">Our Vision</h1>
-<h2 class="text-3xl font-light text-primary-200 mb-16">
+<h1 class="mb-12">Our Vision</h1>
+<h2 class="text-3xl font-light opacity-90 mb-16">
 Restoring trust to our digital world,<br>
-<strong class="text-primary-300">one seal at a time</strong>
+<strong class="text-brand-primary">one seal at a time</strong>
 </h2>
 <div class="relative">
-<div class="absolute inset-0 bg-gradient-to-r from-primary-500 to-primary-400 rounded-full blur-3xl opacity-20"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-primary-500 to-primary-400 rounded-full blur-3xl opacity-10"></div>
 <div class="relative grid grid-cols-3 gap-12 max-w-4xl mx-auto">
-<div class="text-center p-6 bg-white bg-opacity-10 rounded-lg border border-primary-300/30">
-<lucide-globe class="text-6xl mb-6 mx-auto text-primary-300" />
-<div class="text-xl font-semibold mb-2 text-white">Global</div>
-<div class="text-lg text-primary-200">Worldwide trust network</div>
+<div class="brand-card text-center">
+<lucide-globe class="text-6xl mb-6 mx-auto text-brand-primary" />
+<div class="text-xl font-semibold mb-2">Global</div>
+<div class="text-lg opacity-75">Worldwide trust network</div>
 </div>
-<div class="text-center p-6 bg-white bg-opacity-10 rounded-lg border border-primary-300/30">
-<lucide-link class="text-6xl mb-6 mx-auto text-primary-300" />
-<div class="text-xl font-semibold mb-2 text-white">Connected</div>
-<div class="text-lg text-primary-200">Social identity powered</div>
+<div class="brand-card text-center">
+<lucide-link class="text-6xl mb-6 mx-auto text-brand-primary" />
+<div class="text-xl font-semibold mb-2">Connected</div>
+<div class="text-lg opacity-75">Social identity powered</div>
 </div>
-<div class="text-center p-6 bg-white bg-opacity-10 rounded-lg border border-primary-300/30">
-<lucide-users class="text-6xl mb-6 mx-auto text-primary-300" />
-<div class="text-xl font-semibold mb-2 text-white">Empowering</div>
-<div class="text-lg text-primary-200">Individual ownership</div>
+<div class="brand-card text-center">
+<lucide-users class="text-6xl mb-6 mx-auto text-brand-primary" />
+<div class="text-xl font-semibold mb-2">Empowering</div>
+<div class="text-lg opacity-75">Individual ownership</div>
 </div>
 </div>
 </div>
@@ -441,14 +441,14 @@ layout: cover
 
 <div class="flex flex-col items-center justify-center h-full text-center">
 <img src="/logo.svg" alt="seal.codes logo" class="w-40 h-40 mb-8" />
-<h1 class="text-5xl font-bold mb-6 text-white">seal.codes</h1>
-<h2 class="text-2xl font-light mb-12 text-primary-200">
+<h1 class="text-5xl font-bold mb-6">seal.codes</h1>
+<h2 class="text-2xl font-light mb-12">
 Add a seal. Share with confidence.
 </h2>
-<div class="text-lg text-primary-100 mb-8">
+<div class="text-lg opacity-75 mb-8">
 www.seal.codes
 </div>
-<div class="text-base text-primary-200 opacity-75">
+<div class="text-base opacity-60">
 Thank you
 </div>
 </div>
