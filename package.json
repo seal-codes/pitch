@@ -16,7 +16,6 @@
   },
   "devDependencies": {
     "@unocss/reset": "^0.58.0",
-    "playwright-chromium": "1.53.1",
     "unocss": "^0.58.0"
   },
   "keywords": [
