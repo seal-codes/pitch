@@ -1,5 +1,6 @@
 ---
 layout: cover
+background: black
 ---
 
 <VideoBackground src="/people-shaking-hands.mp4">

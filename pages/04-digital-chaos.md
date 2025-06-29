@@ -1,10 +1,11 @@
 ---
 layout: cover
+background: black
 ---
 
 <VideoBackground src="/people-shaking-hands-dissolving-to-bits.mp4">
 <div class="bg-white bg-opacity-60 p-12 rounded-2xl text-center">
-<h1>In the digital space, that foundation is <strong class="text-red-400">crumbling</strong></h1>
+<h1>In the digital space, that foundation is  <strong class="text-primary-600">crumbling</strong></h1>
 </div>
 </VideoBackground>
 

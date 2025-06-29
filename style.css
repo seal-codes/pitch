@@ -21,6 +21,49 @@
   pointer-events: none;
 }
 
+/* PITCH BLACK BACKGROUNDS FOR VIDEO SLIDES */
+/* Override all gradients and backgrounds for video slides */
+.slidev-layout.cover[style*="background: black"],
+.slidev-layout.cover[style*="background-color: black"] {
+  background: #000000 !important;
+  background-image: none !important;
+}
+
+.slidev-layout.cover[style*="background: black"]::before,
+.slidev-layout.cover[style*="background-color: black"]::before {
+  display: none !important;
+}
+
+/* Force pitch black for slides containing video */
+.slidev-page[style*="background: black"] .slidev-layout.cover {
+  background: #000000 !important;
+  background-image: none !important;
+}
+
+.slidev-page[style*="background: black"] .slidev-layout.cover::before {
+  display: none !important;
+}
+
+/* Alternative approach - target slides with VideoBackground component */
+.slidev-layout:has(.video-container) {
+  background: #000000 !important;
+  background-image: none !important;
+}
+
+.slidev-layout:has(.video-container)::before {
+  display: none !important;
+}
+
+/* Fallback for browsers that don't support :has() */
+.video-slide-override {
+  background: #000000 !important;
+  background-image: none !important;
+}
+
+.video-slide-override::before {
+  display: none !important;
+}
+
 /* Dark mode cover slides */
 .dark .slidev-layout.cover {
   color: #f7f7f9;
@@ -29,6 +72,18 @@
 
 .dark .slidev-layout.cover::before {
   background: linear-gradient(135deg, transparent 0%, rgba(45, 212, 191, 0.1) 50%, rgba(42, 181, 181, 0.15) 100%);
+}
+
+/* Override dark mode for video slides too */
+.dark .slidev-layout.cover[style*="background: black"],
+.dark .slidev-layout.cover[style*="background-color: black"] {
+  background: #000000 !important;
+  background-image: none !important;
+}
+
+.dark .slidev-layout.cover[style*="background: black"]::before,
+.dark .slidev-layout.cover[style*="background-color: black"]::before {
+  display: none !important;
 }
 
 /* Image layouts with subtle brand touches */

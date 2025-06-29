@@ -1,5 +1,6 @@
 ---
 layout: cover
+background: black
 ---
 
 <VideoBackground src="/king-applying-a-seal-2.mp4" />
