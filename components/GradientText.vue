@@ -1,5 +1,5 @@
 <template>
-  <span :style="gradientStyle">
+  <span :class="gradientClass" :style="gradientStyle">
     <slot />
   </span>
 </template>
@@ -29,6 +29,8 @@ const gradientDirection = computed(() => {
   }
 })
 
+const gradientClass = computed(() => 'gradient-text-chrome-fix')
+
 const gradientStyle = computed(() => {
   return {
     background: `linear-gradient(${gradientDirection.value}, ${props.startColor}, ${props.endColor})`,
@@ -36,6 +38,64 @@ const gradientStyle = computed(() => {
     WebkitTextFillColor: 'transparent',
     backgroundClip: 'text',
     display: 'inline-block',
+    // Chrome fallback
+    color: 'transparent',
+    // Ensure text is selectable
+    WebkitUserSelect: 'text',
+    userSelect: 'text',
   }
 })
 </script>
+
+<style scoped>
+.gradient-text-chrome-fix {
+  /* Chrome-specific fixes */
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  
+  /* Fallback for older browsers */
+  color: transparent;
+  
+  /* Ensure proper rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Force hardware acceleration */
+  transform: translateZ(0);
+  will-change: transform;
+  
+  /* Ensure text remains selectable */
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+/* Chrome-specific media query fix */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .gradient-text-chrome-fix {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+  }
+}
+
+/* Additional Chrome version compatibility */
+@supports (-webkit-background-clip: text) {
+  .gradient-text-chrome-fix {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+/* Fallback for browsers that don't support background-clip: text */
+@supports not (-webkit-background-clip: text) {
+  .gradient-text-chrome-fix {
+    /* Fallback to solid color */
+    color: v-bind('props.startColor') !important;
+    background: none !important;
+  }
+}
+</style>

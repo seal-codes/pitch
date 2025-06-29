@@ -5,8 +5,6 @@ backgroundSize: contain
 ---
 
 <div class="relative h-full w-full">
-  
-
   <!-- Badge popover in lower right -->
   <div class="absolute bottom-8 right-8 z-20">
     <div class="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-4 rounded-2xl shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-300">

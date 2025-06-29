@@ -4,7 +4,7 @@ layout: statement
 
 <div class="flex items-center justify-center h-full">
 <div class="text-center">
-<GradientText><h1 class="mb-8" style="margin-left: 0px">seal.codes</h1></GradientText>
+<GradientText><div class="text-8xl font-bold">seal.codes</div></GradientText>
 </div>
 </div>
 
