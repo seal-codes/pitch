@@ -78,9 +78,5 @@ src: ./pages/13-innovation-showcase.md
 ---
 
 ---
-src: ./pages/15-seal-as-qr.md
----
-
----
 src: ./pages/16-call-to-action-3min.md
 ---
