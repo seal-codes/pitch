@@ -109,10 +109,7 @@ h3 {
 }
 
 /* Slide content spacing */
-.slidev-layout > * {
-  max-width: 64rem;
-  margin-left: auto;
-  margin-right: auto;
+.slidev-layout>* {
   position: relative;
   z-index: 1;
 }
