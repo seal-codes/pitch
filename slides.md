@@ -66,7 +66,7 @@ src: ./pages/07-expert-curse.md
 ---
 
 ---
-src: ./pages/08-return-clarity.md
+src: ./pages/08-meet-seal-codes.md
 ---
 
 ---
