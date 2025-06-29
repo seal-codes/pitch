@@ -22,4 +22,6 @@ backgroundSize: contain
 
 <!--
 Now Sarah can embed a visible, verifiable seal directly onto her work. She's not just protecting her art; she's proudly declaring, 'This is mine. I stand behind it.' She's restoring the trust in her creative interactions, and her audience knows they're seeing authentic work.
+
+[SHORT VERSION] Now Sarah can proudly declare "This is mine" with verifiable proof embedded directly in her work. She's restoring trust in her creative interactions.
 -->

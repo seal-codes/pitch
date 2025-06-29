@@ -10,4 +10,6 @@ layout: cover
 
 <!--
 What makes us as humans so unique is the intricate way we interact. We build societies, create art, and conduct business. And every single one of these interactions, from a simple conversation to a global transaction, is built on a fundamental, invisible foundation: Trust.
+
+[SHORT VERSION] For millennia, humans used visible seals to prove authenticity - royal seals pressed into wax that instantly communicated who stood behind a document. But in our digital world, that foundation of trust is crumbling.
 -->

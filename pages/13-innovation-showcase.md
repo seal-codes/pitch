@@ -14,4 +14,6 @@ layout: cover
 
 <!--
 This isn't just another app - this represents genuine innovation. Built with 88% AI assistance using bolt.new, seal.codes demonstrates what's possible when we combine human creativity with AI capability. We didn't build another todo app or social network clone - we solved a fundamental problem that's existed since the dawn of the internet.
+
+[SHORT VERSION] Built with 88% AI assistance, this isn't another app clone - we solved a fundamental internet problem. Our vision: empowering every user to leverage their existing social identities to prove ownership and authenticity.
 -->

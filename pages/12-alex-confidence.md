@@ -22,4 +22,6 @@ backgroundSize: contain
 With a seal.codes verified image, Alex can now be absolutely sure that his trading partner owns the identity behind the seal. Yes, it's "only" a social identity - but here's what's remarkable: some social identities are actually better protected than physical identity documents. Think about it - your Google account has two-factor authentication, recovery processes, and years of digital history. Your GitHub profile shows your actual work and reputation. These social identities often have stronger verification and protection mechanisms than a simple ID card that can be faked.
 
 The seal acts as Alex's digital handshake, connecting him directly to a verified social identity. It removes the doubt, prevents the fraud, and allows a trusted transaction to take place - backed by the robust security of established social platforms.
+
+[SHORT VERSION] Alex can now trust his trading partners through verified social identities - which are often better protected than physical ID cards with their two-factor authentication and digital history. The seal acts as his digital handshake.
 -->

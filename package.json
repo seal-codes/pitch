@@ -4,6 +4,7 @@
   "description": "Hackathon pitch deck for seal.codes - Digital Seals for the Modern Age",
   "scripts": {
     "dev": "slidev",
+    "3min": "slidev --open slides-3min.md",
     "build": "slidev build",
     "export": "slidev export",
     "preview": "slidev build --base /seal-codes-pitch/ && slidev preview"

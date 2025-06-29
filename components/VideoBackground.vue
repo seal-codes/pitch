@@ -1,17 +1,18 @@
 <template>
-  <div class="absolute inset-0 w-full h-full">
+  <div class="video-container">
     <video
       ref="videoRef"
       autoplay
       muted
-      class="absolute inset-0 w-full h-full object-cover"
+      playsinline
+      class="video-element"
       :poster="poster"
     >
       <source :src="src" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
 
-    <div class="absolute inset-0 flex items-center justify-center">
+    <div class="content-overlay">
       <slot />
     </div>
   </div>
@@ -73,12 +74,53 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
-/* Ensure the component takes full viewport height */
-.absolute.inset-0 {
-  position: absolute;
+.video-container {
+  position: fixed;
   top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.video-element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
+
+.content-overlay {
+  position: fixed;
+  top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content-overlay > * {
+  pointer-events: auto;
 }
 </style>

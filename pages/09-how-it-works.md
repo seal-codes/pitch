@@ -23,4 +23,6 @@ backgroundSize: contain
 
 <!--
 Here's how simple it is: Upload your document, login with a social account you already have - Google, GitHub, whatever you use - and get your digital seal. That's it. No private keys, no certificates, no technical complexity. The seal embeds directly into your document as a QR code that anyone can verify.
+
+[SHORT VERSION] Here's how simple seal.codes is: Upload your document, login with a social account you already have, get your digital seal. No private keys, no certificates, no complexity.
 -->

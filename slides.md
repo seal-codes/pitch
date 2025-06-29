@@ -94,9 +94,5 @@ src: ./pages/14-vision.md
 ---
 
 ---
-src: ./pages/15-seal-as-qr.md
----
-
----
 src: ./pages/16-call-to-action.md
 ---

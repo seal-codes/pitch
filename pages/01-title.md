@@ -10,4 +10,6 @@ layout: cover
 
 <!--
 Thank you for your time today. I want to talk about something we all engage in every single moment of our lives: human interaction. And at the heart of every interaction lies one fundamental element - trust. Today I'll show you how we're bringing that trust back to our digital world with seal.codes.
+
+[SHORT VERSION] At the heart of every human interaction lies trust. Today I'll show you how we're bringing that trust back to our digital world with seal.codes.
 -->

@@ -31,4 +31,6 @@ but were only for the few
 
 <!--
 For decades, brilliant minds have tried to solve this. We've had cryptographic solutions like PGP and complex Trust Chains with PKI. But these tools have a fatal flaw: they were built by experts, for experts. They require complex setup, key management, and a level of technical understanding that puts them out of reach for almost everyone.
+
+[SHORT VERSION] Existing solutions like PGP and PKI were built by experts, for experts - requiring technical knowledge that puts them out of reach for almost everyone. We needed something different.
 -->
